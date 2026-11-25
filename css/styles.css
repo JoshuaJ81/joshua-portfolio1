@@ -594,6 +594,7 @@ progress {
   margin-bottom: 1rem;
   font-size: 0.875em;
   color: #6c757d;
+  
 }
 .blockquote-footer::before {
   content: "— ";
@@ -11449,17 +11450,17 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item {
+:is(#traininganddoc, #projects, #portfolio, #writing, #webprojects) .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item .portfolio-link {
+:is(#traininganddoc, #projects, #portfolio, #writing, #webprojects) .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item .portfolio-link .portfolio-hover {
+:is(#traininganddoc, #projects, #portfolio, #writing, #webprojects) .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11470,25 +11471,25 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+:is(#traininganddoc, #projects, #portfolio, #writing, #webprojects) .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item .portfolio-link:hover .portfolio-hover {
+:is(#traininganddoc, #projects, #portfolio, #writing, #webprojects) .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item .portfolio-caption {
+:is(#traininganddoc, #projects, #portfolio, #writing, #webprojects) .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item .portfolio-caption .portfolio-caption-heading {
+:is(#traininganddoc, #projects, #portfolio, #writing, #webprojects) .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
-:is(#traininganddoc, #projects, #writing, #web-projects) .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+:is(#traininganddoc, #projects, #pportfolio, #writing, #webprojects) .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11822,6 +11823,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .footer {
   text-align: center;
+  background-color: #FFC800;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
