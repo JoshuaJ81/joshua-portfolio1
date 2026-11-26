@@ -11903,5 +11903,5 @@ div.sop-mobile {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #000000;
+    color: #000000 !important;
 }
