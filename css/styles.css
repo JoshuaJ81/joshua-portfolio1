@@ -11876,3 +11876,22 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 }
+
+/* AV Operations SOP - Responsive PDF Display */
+
+.sop-mobile {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+
+    .sop-desktop {
+        display: none;
+    }
+
+    .sop-mobile {
+        display: block;
+        text-align: center;
+    }
+
+}
