@@ -11879,18 +11879,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 /* AV Operations SOP - Responsive PDF Display */
 
-.sop-mobile {
-    display: none;
+div.sop-mobile {
+    display: none !important;
 }
 
 @media (max-width: 767.98px) {
 
-    .sop-desktop {
-        display: none;
+    iframe.sop-desktop {
+        display: none !important;
     }
 
-    .sop-mobile {
-        display: block;
+    div.sop-mobile {
+        display: block !important;
         text-align: center;
     }
 
