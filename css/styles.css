@@ -11895,3 +11895,13 @@ div.sop-mobile {
     }
 
 }
+
+/* AV Operations SOP - Button Styling */
+
+.sop-mobile .btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000000;
+}
